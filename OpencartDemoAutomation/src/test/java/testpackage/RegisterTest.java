@@ -13,6 +13,7 @@ public class RegisterTest {
     @BeforeMethod
     public void RegisterUserSetup() {
     	rp=new Registerpage(driver);
+    	System.out.println("Harsh");
     }
     
     
